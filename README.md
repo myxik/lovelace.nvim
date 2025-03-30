@@ -2,6 +2,10 @@
 
 A dark and elegant colorscheme for Neovim, inspired by iTerm2 lovelace theme
 
+## Screenshots
+
+![Lovelace Screenshot](assets/screen1.png)
+
 ## Features
 
 - 🎨 Carefully crafted color palette for optimal readability
