@@ -15,7 +15,7 @@ function M.setup()
     EndOfBuffer = { fg = palette.bg }, -- Hide ~ tildes
     LineNr = { fg = palette.gray1 },
     CursorLineNr = { fg = palette.fg, bold = true },
-    VertSplit = { fg = palette.gray1 },
+    VertSplit = { fg = palette.bg, bg = palette.bg },
     SignColumn = { bg = palette.bg },
 
     -- Syntax
