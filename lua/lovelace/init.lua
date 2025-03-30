@@ -15,7 +15,8 @@ function M.setup()
     EndOfBuffer = { fg = palette.bg }, -- Hide ~ tildes
     LineNr = { fg = palette.gray1 },
     CursorLineNr = { fg = palette.fg, bold = true },
-    VertSplit = { fg = palette.bg, bg = palette.bg },
+    VertSplit = { fg = palette.gray1 },  -- For older Neovim versions
+    WinSeparator = { fg = palette.gray1 }, -- For newer Neovim versions
     SignColumn = { bg = palette.bg },
 
     -- Syntax
